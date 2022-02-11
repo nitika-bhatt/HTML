@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-4 HTML Page</title>
+    <link rel="icon" href="photo.jpg" type="image/x-icon">
+</head>
+<body>
+    <table class="table1">
+    <tr>
+        <th class="day" rowspan="3">Day</th>
+        <th colspan="3">Seminar </th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th class="topic" rowspan="2">Topic</th>
+
+    </tr>
+    <tr >
+        <th class="begin" >Begin</th>
+        <th class="end">End</th>
+
+    </tr>
+    <tr>
+        <td rowspan="2" class="day">Monday</td>
+        <td rowspan="2" class="time">8:00am</td>
+        <td rowspan="2"class="time">5:00pm</td>
+        <td class="topic1">Introduction to HTML</td>
+    </tr>
+    <tr>
+        <td class="topic1">HTML Tags,HTML Attributes</td>
+    </tr>
+    <tr>
+        <td rowspan="3"class="day">Tuesday</td>
+        <td class="time">8:00am</td>
+        <td class="time">10:30am</td>
+        <td class="topic1">HTML Headings,Paragraphs,HTML Styles</td>
+    </tr>
+    <tr>
+        <td class="time">11:00am</td>
+        <td class="time">01:00pm</td>
+        <td class=topic1>HTML,Colors,HTML,CSS,HTML Links</td>
+    </tr>
+    <tr>
+        <td class="time">02:00pm</td>
+        <td class="time">05:00pm</td>
+        <td class=topic1>HTML,Links,HTML,Images</td>
+    </tr>
+    <tr>
+        <td class="day">Wednesday</td>
+        <td class="time">09:00am</td>
+        <td class="time">05:00pm</td>
+        <td class=topic1>HTML Tables</td>
+    </tr>
+
+    <style>
+        table.table1,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+
+
+        }
+        th.day{
+            padding-left: 70px;
+            padding-right: 70px;
+            
+        }
+        td.day{
+            padding-left: 70px;
+            padding-right: 70px;
+            text-align: center;
+        }
+
+        th.topic{
+            padding-left: 300px;
+            padding-right: 300px;
+            text-align: center;
+        }
+        td.topic1{
+            padding-left: 300px;
+            padding-right: 300px;
+            text-align: center;
+        }
+        th.begin{
+            padding-left: 70px;
+            padding-right:70px
+        }
+        th.end{
+            padding-left: 70px;
+            padding-right:70px 
+        }
+        td.time
+        {
+            padding-left: 70px;
+            padding-right: 70px;
+            text-align: center;
+        }
+    </style>
+</table>  
+</body>
+</html>
